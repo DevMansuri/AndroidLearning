@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".BirhtDatWish">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:src="@drawable/birthday"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy BirthDay"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/msgtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is your msg"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>
